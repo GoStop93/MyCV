@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.MainEducation-enter {
+  opacity: 0;
+}
+.MainEducation-enter-active {
+  opacity: 1;
+  visibility: visible;
+  transition: all 2000ms;
+}
+.MainEducation-enter-done {
+  opacity: 1;
+  visibility: visible;
+}
+.MainEducation-exit {
+  opacity: 1;
+}
+.MainEducation-exit-active {
+  opacity: 0;
+  visibility: hidden;
+  transform: all 2000ms;
+}
+
+.AdditionalEducation-enter {
+  opacity: 0;
+}
+.AdditionalEducation-enter-active {
+  opacity: 1;
+  visibility: visible;
+  transition: all 2000ms;
+}
+.AdditionalEducation-enter-done {
+  opacity: 1;
+  visibility: visible;
+}
+.AdditionalEducation-exit {
+  opacity: 1;
+}
+.AdditionalEducation-exit-active {
+  opacity: 0;
+  visibility: hidden;
+  transform: all 2000ms;
+}
+
+.TechnologiesContent-enter {
+  opacity: 0;
+}
+.TechnologiesContent-enter-active {
+  opacity: 1;
+  visibility: visible;
+  transition: all 4000ms;
+}
+.TechnologiesContent-enter-done {
+  opacity: 1;
+  visibility: visible;
+}
+.TechnologiesContent-exit {
+  opacity: 1;
+}
+.TechnologiesContent-exit-active {
+  opacity: 0;
+  visibility: hidden;
+  transform: all 4000ms;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family: witcher;
+  src: url(../../fonts/thewitcher-4.ttf);
+}
+
+@font-face {
+  font-family: cyberpunk;
+  src: url(../../fonts/Cyberpunk.ttf);
+}
+
+@keyframes beat {
+  from {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);  
+  }
+  to {
+      transform: scale(1);
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
